@@ -1,11 +1,11 @@
-import CostDate from '../CostDate/CostDate';
-import Card from '../Card/Card';
+import CostDate from './CostDate';
+import Card from '../UI/Card';
 import './CostItem.css';
 
 const CostItem = (props) => {
   return (
     <Card className='cost-item'>
-      <CostDate date={props.date}/>
+      <CostDate date={props.date} />
       <div className='cost-item__description'>
         <h2>{props.description}</h2>
         <div className='cost-item__price'>${props.amount}</div>

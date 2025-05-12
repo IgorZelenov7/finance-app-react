@@ -1,6 +1,6 @@
 import Costs from './components/Costs/Cost';
 
-function App() {
+const App = () => {
   const costs = [
     {
       date: new Date(2025, 2, 12),

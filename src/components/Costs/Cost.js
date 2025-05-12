@@ -1,5 +1,5 @@
-import CostItem from "../CostItem/CostItem";
-import Card from "../Card/Card";
+import CostItem from './CostItem';
+import Card from '../UI/Card';
 import './Costs.css';
 
 const Cost = (props) => {
